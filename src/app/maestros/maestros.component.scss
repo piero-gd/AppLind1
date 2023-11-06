@@ -1,0 +1,45 @@
+mat-card {
+    max-width: 100%;
+    text-align: center;
+    max-height: 100%;
+  }
+  
+  .header{
+    text-align: center;
+  
+  }
+  
+  .button{
+    margin-inline: 1%;
+  }
+  
+  .checkboxGroup {
+    border: 2px solid #5a3092;
+    border-radius: 5px;
+  }
+  
+  .custom-checkbox {
+    /* Aplicar estilos personalizados al checkbox */
+    background-color: #fff; /* Cambiar el color de fondo */
+  
+    /* Agregar otros estilos personalizados */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .custom-checkbox.mat-checkbox-checked {
+    /* Estilos cuando el checkbox está marcado */
+    background-color: #ff5722; /* Cambiar el color de fondo cuando está marcado */
+    color: #fff; /* Cambiar el color del texto cuando está marcado */
+    border-color: #ff5722; /* Cambiar el borde cuando está marcado */
+  }
+  
+  .custom-label {
+    /* Estilos para la etiqueta de los checkboxes */
+    font-weight: bold;
+  }
+  
+  p{
+    margin-bottom: 3%;
+  }

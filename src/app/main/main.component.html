@@ -1,21 +1,18 @@
 <mat-card>
     <mat-card-content>
-      <div class="header">
-          <img width="100px" src="../../assets/images/lindcorp-logo.jpg" />
-          <h2>MAIN</h2>
-      </div>
-      <form >
-        <div class="xxx">
-          <mat-form-field class="full-width" appearance="outline">
-            <mat-label>XXX</mat-label>
-            <input
-              formControlName="xxx"
-              matInput
-              placeholder="Ingresa xxx" required
-            />
-          </mat-form-field>
+        <div class="header">
+            <img width="100px" src="../../assets/images/lindcorp-logo.jpg" />
+            <h2>MAIN</h2>
         </div>
-        <button mat-flat-button color="primary">Action</button>
-      </form>
+        <!--tabs-->
+        <mat-tab-group>
+            <mat-tab label="Maestros">
+                <!--<app-maestros></app-maestros>-->
+            </mat-tab>
+            <mat-tab label="OC-Directiva">
+                <app-oc-directiva></app-oc-directiva>
+            </mat-tab>
+        </mat-tab-group>
+
     </mat-card-content>
-  </mat-card>
+</mat-card>
